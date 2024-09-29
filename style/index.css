@@ -15,6 +15,7 @@
     body{
         /* padding: 0px; */
         margin:0px;
+        background-color: black;
         
     }
     .loginbtn{
@@ -26,3 +27,53 @@
         border-radius: 8px;
     
     }
+    .congs{
+    font-size: 100px;
+    font-family: cursive;
+    color: gold;
+    text-align: center;       
+}
+    .congs1{    
+    font-size: 45px;
+    font-weight: bolder;
+    color: gold;
+    font-family: cursive;
+    text-align: center;       
+
+
+    }
+    .congs2{    
+        font-size: 30px;
+        font-weight: bolder;
+        color: gold;
+        font-family: cursive;
+text-align: center;       
+    
+        }
+    .prizes{
+        display: flex;
+        flex-direction: row;
+        margin-left: 150px;
+      }
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s; 
+        width:20.5%;
+        /* height:%; */
+        /* padding: 2%; */
+        background-color: bisque;
+        border-radius: 8px;
+    }
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      .container {
+        padding: 16px;
+        /* border-radius: 8px; */
+      }
+      .c-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
